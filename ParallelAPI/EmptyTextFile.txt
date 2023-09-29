@@ -1,0 +1,6 @@
+﻿
+Multithreading is a programming technique that allows a computer's CPU (Central Processing Unit) to execute multiple threads of a program concurrently. A thread is the smallest unit of execution within a process, and multithreading enables a program to perform multiple tasks or processes simultaneously, taking advantage of the available CPU cores.
+
+meaning they can execute simultaneously on multiple CPU cores (if available). This parallelism can significantly improve the program's performance, as tasks can be completed concurrently rather than sequentially.
+
+When consuming a REST API with multithreading, there are several considerations you should keep in mind to ensure that your application performs efficiently and reliably. Multithreading can be a powerful tool for improving the performance of API requests, but it also introduces complexities and potential issues that need to be addressed. Here are some key considerations:
